@@ -1,0 +1,12 @@
+
+body{margin:0;background:#050510;color:white;font-family:Arial,sans-serif}
+.bg{position:fixed;inset:0;background:
+radial-gradient(circle at 20% 20%,#4f46e5,transparent 25%),
+radial-gradient(circle at 80% 40%,#06b6d4,transparent 25%);
+filter:blur(80px);z-index:-1}
+section{padding:90px 20px;text-align:center}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center}
+h1{font-size:4rem}
+a{color:white;border:1px solid white;padding:12px 20px;text-decoration:none}
+.cards{display:flex;gap:15px;flex-wrap:wrap;justify-content:center}
+.cards div{padding:20px;background:rgba(255,255,255,.08);backdrop-filter:blur(10px);border-radius:16px}
